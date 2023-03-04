@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book Store App </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="left">
+            <a href="index.html"> Book Store App </a>
+        </div>
+        <div class="right">
+            <a href="searchhistory.html"> Search History </a>
+        </div>
+    </div>
+
+    <form id="searchform">
+        <h2 class="heading"> Search Book by their Name or Author </h2>
+        <input type="text" id="search" name="search query" placeholder="Search..." onfocus="this.value=''">
+        <button id="searchbtn"> Search Now! </button>
+    </form>
+
+    <div id="searchresults">
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
